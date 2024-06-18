@@ -73,3 +73,7 @@ from keras import layers
           ├── unknown2.jpg
           └── ...
       ```
+### Paso 3: Entrenar el Modelo
+Ejecutar la celda de KNN que se encargue de entrenar el modelo KNN
+### Paso 4: Predicción en tiempo real
+Ejecutar la celda encargada de iniciar la cámara web y realizar la predicción en tiempo real.
