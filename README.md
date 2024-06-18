@@ -63,13 +63,13 @@ from keras import layers
 1. crear una estructura de capepetas, (en caso de tener el Dataset ver ejemplo de estructuración) donde cada carpeta represente un clase (una persona).
    Ejemplo:
    ```markdown
-   dataset/
-├── andrew/
-│   ├── andrew1.jpg
-│   ├── andrew2.jpg
-│   └── ...
-└── unknown/
-    ├── unknown1.jpg
-    ├── unknown2.jpg
-    └── ...
-```
+      dataset/
+      ├── andrew/
+      │   ├── andrew1.jpg
+      │   ├── andrew2.jpg
+      │   └── ...
+      └── unknown/
+          ├── unknown1.jpg
+          ├── unknown2.jpg
+          └── ...
+      ```
