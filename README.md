@@ -30,7 +30,7 @@ Para asegurar la compatibilidad y el correcto funcionamiento del código, se rec
 ```sh
 conda create -n face_recognition_env python=3.9.19
 conda activate face_recognition_env
-
+```
 
 ### Paso 2: Instalar las librerias Necesarias
 ```sh
@@ -42,5 +42,19 @@ pip install scikit-learn==1.3.0
 pip install matplotlib==3.7.1
 pip install numpy==1.23.5
 pip install keras-vggface==0.6
-
-
+```
+## Configuración
+### Paso 1: Configurar la libreria `keras_vggface`
+Asegurar de que tu archivo `model.py` tenga la siguiente configuración para importar correctamente las librerias:
+```python
+from keras.layers import Flatten, Dense, Input, GlobalAveragePooling2D, GlobalMaxPooling2D, Activation, Conv2D, MaxPooling2D, BatchNormalization, AveragePooling2D, Reshape, Permute, multiply
+from keras_applications.imagenet_utils import _obtain_input_shape
+from keras.utils import layer_utils
+from keras.utils.data_utils import get_file
+from keras import backend as K
+from keras_vggface import utils
+from keras.utils.layer_utils import get_source_inputs
+import warnings
+from keras.models import Model
+from keras import layers
+```
