@@ -58,3 +58,18 @@ import warnings
 from keras.models import Model
 from keras import layers
 ```
+## Ejecución de SVM o KNN
+### Paso 1: Prepar el Dataset
+1. crear una estructura de capepetas, (en caso de tener el Dataset ver ejemplo de estructuración) donde cada carpeta represente un clase (una persona).
+   Ejemplo:
+   ```markdown
+   dataset/
+├── andrew/
+│   ├── andrew1.jpg
+│   ├── andrew2.jpg
+│   └── ...
+└── unknown/
+    ├── unknown1.jpg
+    ├── unknown2.jpg
+    └── ...
+```
