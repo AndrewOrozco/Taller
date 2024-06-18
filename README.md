@@ -30,3 +30,17 @@ Para asegurar la compatibilidad y el correcto funcionamiento del código, se rec
 ```sh
 conda create -n face_recognition_env python=3.9.19
 conda activate face_recognition_env
+
+
+### Paso 2: Instalar las librerias Necesarias
+```sh
+pip install tensorflow==2.12.0
+pip install keras==2.12.0
+pip install opencv-python==4.10.0
+pip install dlib==19.24.0
+pip install scikit-learn==1.3.0
+pip install matplotlib==3.7.1
+pip install numpy==1.23.5
+pip install keras-vggface==0.6
+
+
